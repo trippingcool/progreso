@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tripping Cool - Progreso</title>
+  <style>
+    /* Fondo degradado */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #a3d8f4, #f6c8b6);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #003366;
+    }
+
+    /* Encabezado */
+    .logo {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .logo img {
+      max-width: 140px;
+    }
+
+    .title {
+      font-size: 1.8em;
+      font-weight: 600;
+      margin: 25px 0 15px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    hr {
+      width: 80%;
+      border: 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.6);
+      margin: 15px 0;
+    }
+
+    /* Botones de links */
+    .link-button {
+      background: #d9f1fb;
+      color: #004b7a;
+      text-decoration: none;
+      padding: 14px 18px;
+      border-radius: 12px;
+      width: 80%;
+      max-width: 320px;
+      text-align: center;
+      margin: 8px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      font-weight: 500;
+      transition: all 0.2s ease;
+      display: block;
+    }
+
+    .link-button:hover {
+      background: #bfe7f5;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 480px) {
+      .title { font-size: 1.6em; }
+      .link-button { font-size: 0.95em; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <h1 style="font-family: 'Fredoka One', sans-serif; color: #d9413c;">tripping cool</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Carnival_Cruise_Line_logo.svg" alt="Carnival Logo" />
+  </div>
+
+  <hr>
+
+  <div class="title">Progreso</div>
+
+  <a href="https://example.com/bluehole" class="link-button">Blue Hole, Cenotes & Swim Adventure</a>
+  <a href="https://example.com/chichenitza" class="link-button">Chichen Itza, Sacred Cenote Ikkil & Mayan Buffet</a>
+  <a href="https://example.com/celestun" class="link-button">Celestun Flamingo Expedition & Seaside Retreat</a>
+
+  <a href="https://example.com/bluehole" class="link-button">Blue Hole, Cenotes & Swim Adventure</a>
+  <a href="https://example.com/chichenitza" class="link-button">Chichen Itza, Sacred Cenote Ikkil & Mayan Buffet</a>
+  <a href="https://example.com/celestun" class="link-button">Celestun Flamingo Expedition & Seaside Retreat</a>
+
+  <a href="https://example.com/bluehole" class="link-button">Blue Hole, Cenotes & Swim Adventure</a>
+  <a href="https://example.com/chichenitza" class="link-button">Chichen Itza, Sacred Cenote Ikkil & Mayan Buffet</a>
+  <a href="https://example.com/celestun" class="link-button">Celestun Flamingo Expedition & Seaside Retreat</a>
+
+</body>
+</html>
