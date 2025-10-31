@@ -31,21 +31,24 @@ body {
     margin-bottom: 20px;
 }
 
-.logo-tripping-cool {
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Usé una fuente más juguetona */
-    font-size: 32px;
-    color: var(--header-color);
-    margin: 0;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+/* Elimina los estilos anteriores para .logo-tripping-cool y .logo-carnival */
+/* Y añade esto: */
+
+.logo-img {
+    display: block; /* Para que cada imagen ocupe su propia línea */
+    margin: 0 auto; /* Centrar las imágenes */
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
-.logo-carnival {
-    font-family: 'Verdana', sans-serif;
-    font-size: 18px;
-    color: #cc0000; /* Color rojo para Carnival */
-    margin-top: 5px;
-    font-weight: bold;
+.tripping-cool-img {
+    width: 200px; /* Ajusta este valor al tamaño deseado para el logo de Tripping Cool */
+    margin-bottom: 5px; /* Espacio entre los logos */
+}
+
+.carnival-img {
+    width: 120px; /* Ajusta este valor al tamaño deseado para el logo de Carnival */
+    margin-top: 10px; /* Espacio adicional arriba del logo de Carnival */
 }
 
 /* --- Separador --- */
